@@ -1,0 +1,326 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background: cornflowerblue;
+}
+
+
+.nab-bar {
+    position: relative;
+    display: inline;
+}
+
+.nab-bar-title h4 {
+    position: relative;
+    font-size: 30px;
+    left: 20px;
+    top: 3px;
+}
+
+.div-clear{
+    clear: both;
+}
+
+.nab-bar-title h3 {
+    position: relative;
+    top: -35px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.nab-bar-title {
+    position: relative;
+    top: 10px;
+}
+.nab-bar-title h2 {
+    position: relative;
+    top: -77px;
+    text-align: end;
+    font-size: 30px;
+    right: 20px;
+}
+
+
+.body-prt h1 {
+    position: relative;
+    text-align: center;
+    font-size: 10.5rem;
+    letter-spacing: 0.2rem;
+    text-shadow: 6px 5px 4px #000;
+    transition: 0.7s;
+    color: red;
+    animation-name: example;
+    animation-duration: 4s;
+  
+}
+
+@keyframes example {
+    from {color: red; font-size: 0rem;}
+    to {color: yellow;font-size: 10.5rem;}
+  }
+
+.body-prt h4 {
+    position: relative;
+    text-align: center;
+    font-size: 51px;
+    padding: 15px;
+    color: #171a63;
+}
+
+.btn {
+    position: relative;
+    left: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+button a {
+    padding: 15px 43px;
+    font-size: 50px;
+    text-decoration: none;
+    color: #fff;
+    border: none;
+}
+
+button {
+    border-radius: 35px;
+    background-color: #fb5200;
+    transition: 0.7s;
+    box-sizing: border-box;
+    box-shadow: 3px 3px 1px #000000ad;
+}
+
+button:hover{
+    background-color: #000;
+}
+
+.special-cear {
+    position: relative;
+    margin-bottom: 25px;
+}
+
+.special-cear h1 {
+    position: relative;
+    font-size: 50px;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #05053c;
+}
+
+
+.left-info-kaiyum {
+    float: left;
+}
+
+.left-info-kaiyum {
+    background-color: red;
+    padding: 30px 50px;
+    width: 48%;
+    box-sizing: border-box;
+    box-shadow: 3px 3px 1px #000000ad;
+}
+
+.left-info-kaiyum h3 {
+    font-size: 2.5rem;
+    font-family: sans-serif;
+    padding: 10px;
+    color: #fff;
+}
+
+.left-info-kaiyum h1 {
+    font-size: 47px;
+    font-weight: 600;
+    font-family: sans-serif;
+    padding: 10px;
+    transition: 0.7s;
+}
+
+.left-info-kaiyum h1:hover{
+    color: red;
+    transition: 0.7s;
+}
+
+.left-info-kaiyum h4 {
+    font-size: 23px;
+    font-family: sans-serif;
+    padding: 10px;
+    color: #fff;
+    transition: 0.7s;
+
+}
+
+
+
+.left-info-kaiyum {
+    background-color: red;
+    padding: 30px 50px;
+    width: 48%;
+    border-radius: 15px;
+    position: relative;
+    left: 15px;
+    transition: 0.7s;
+    cursor: pointer;
+}
+
+.left-info-kaiyum:hover {
+    background-color: rgb(99, 33, 33);
+    border-radius: 15px;
+    position: relative;
+    transition: 0.7s;
+}
+
+
+.left-info-kaiyum h4:hover{
+    color: rgb(172, 172, 37);
+    text-shadow: 6px 5px 4px #000;
+    cursor: pointer;
+}
+
+
+.right-info-kaiyum {
+    position: relative;
+    width: 48%;
+    right: 5%;
+    float: right;
+    left: -18px;
+    background: blue;
+    border-radius: 15px;
+}
+
+
+.right-info-kaiyum ul {
+    padding: 66px 133px;
+    font-size: 25px;
+    color: #fff;
+    text-shadow: 6px 5px 4px #000;
+    box-sizing: border-box;
+    border-radius: 15px;
+    box-shadow: 3px 3px 1px #000000ad;
+}
+
+.right-info-kaiyum ul:hover{
+    background-color: rgb(31, 31, 17);
+    transition: 0.7s;
+    border-radius: 15px;
+}
+
+.details {
+    position: relative;
+    top: 60px;
+}
+
+.details h1 {
+    font-family: 'Redressed', cursive;
+    font-size: 45px;
+    position: relative;
+    color: currentcolor;
+    text-align: center;
+    margin-bottom: 15px;
+    text-shadow: 9px -2px 4px #000000a8;
+}
+
+
+hr.hr-1 {
+    position: relative;
+    width: 8%;
+    left: 627px;
+    height: 5px;
+    background-color: #fff;
+}
+
+
+.details h3 {
+    position: relative;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Redressed', cursive;
+    padding: 20px;
+}
+
+.mobile-with-icon {
+    text-align: center;
+    font-family: 'Redressed', cursive;
+    color: #0d1c35de;
+}
+
+i.fas.fa-phone {
+    color: red;
+    margin-right: 5px;
+}
+
+i.far.fa-envelope {
+    color: red;
+    margin-right: 5px;
+}
+
+
+.last-icon {
+    position: relative;
+    text-align: center;
+    font-size: 35px;
+    margin-top: 95px;
+    margin-bottom: 20px;
+}
+
+
+i.fab.fa-facebook-f {
+    position: relative;
+    background: #fff;
+    padding: 10px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+i.fab.fa-facebook-f:hover{
+    background-color: red;
+    color: white;
+    transition: 0.7s;
+}
+
+i.fab.fa-youtube {
+    position: relative;
+    background: #fff;
+    padding: 10px;
+    border-radius: 50%;
+    margin-right: 15px;
+    color: red;
+}
+
+i.fab.fa-youtube:hover{
+    background-color: red;
+    color: white;
+    transition: 0.7s;
+}
+
+i.fab.fa-twitter {
+    position: relative;
+    background: #fff;
+    padding: 10px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+i.fab.fa-twitter:hover{
+    background-color: red;
+    color: white;
+    transition: 0.7s;
+}
+
+i.fab.fa-whatsapp {
+    color: red;
+    position: relative;
+    background: #fff;
+    padding: 10px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+i.fab.fa-whatsapp:hover{
+    background-color: red;
+    color: white;
+    transition: 0.7s;
+}
